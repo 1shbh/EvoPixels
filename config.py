@@ -1,0 +1,28 @@
+import random
+
+# Image & GA config
+IMAGE_PATH = "assets/kirby.png"
+K = 60
+N_GENERATIONS = 30000
+M_CANDIDATES = 300
+NUM_CROSSOVERS = 50
+POPULATION_SIZE = 60
+DS_FIT = 128
+RANDOM_SEED = None
+GIF_FRAME_SKIP = 5
+GIF_SAVE_PATH = "output/evolution.gif"
+
+# Pygame GUI config
+WINDOW_WIDTH = 900
+WINDOW_HEIGHT = 500
+BUTTON_HEIGHT = 40
+BG_COLOR = (30, 30, 30)
+BUTTON_COLOR = (70, 70, 70)
+BUTTON_HOVER = (100, 100, 100)
+TEXT_COLOR = (255, 255, 255)
+MAX_IMG_WIDTH = 128
+MAX_IMG_HEIGHT = 128
+
+# SEED
+if RANDOM_SEED is not None:
+    random.seed(RANDOM_SEED)
